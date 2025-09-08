@@ -73,12 +73,12 @@ NF==15 {
         $1 = $1 " " parts[j]
     }
 
-    # Remove commas from Hospital column (field 9)
-    gsub(/,/, "", $9)
-
     # Rebuild row explicitly with commas so commas never disappear
     OFS=","; print $1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$15
 }' temp_data.csv > "$CLEAN_DATA"
+
+# Ensure unix line endings (remove CR if present)
+sed -i 's/\r$//' "$CLEAN_DATA"
 
 # -------------------------------------------------------
 # 🧭 STEP 2.5: Prepare Windows-safe path
