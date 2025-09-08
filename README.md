@@ -1,7 +1,7 @@
 # 📊 Automated Data Pipeline with Bash + MySQL
 
 This project demonstrates a simple ETL (Extract, Transform, Load) pipeline using Bash scripting and MySQL.
-It loads a healthcare dataset (from Kaggle
+It loads a healthcare dataset from Kaggle's [Healthcare Dataset](https://www.kaggle.com/datasets/prasad22/healthcare-dataset).  
 
 ---
 
