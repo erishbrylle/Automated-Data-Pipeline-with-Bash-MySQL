@@ -37,8 +37,7 @@ MYSQL_PASS="pokemon12"
 ## ▶️ How to Run:
 1. Clone the repo and navigate inside:
 ```bash
-git clone <your-repo-url>
-cd <repo-folder>
+git clone https://github.com/erishbrylle/Automated-Data-Pipeline-with-Bash-MySQL
 ```
 2. Clone the repo and navigate inside:
 ```bash
